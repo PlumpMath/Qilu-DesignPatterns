@@ -1,3 +1,14 @@
+/**
+The State Pattern (also referred to as State Design Pattern) is one of the behavioral patterns. 
+It defines a manner for controlling communication among classes or entities. 
+It is used to change the behavior of the object when the object's internal state is changed. 
+This pattern helps objects to change it state without changing the interface (used to access the object) 
+or lose the current state. This change of the state of the class or object is hidden from the outer world with 
+the use of a context (also known as wrapper object). 
+The State Pattern can be used to implement complex decision-making algorithms represented as a flow chart or state diagram. 
+A State Pattern can also be implement where various states exist and each state has a specific action.
+*/
+
 //Simple Example State Pattern
 
 using System;
