@@ -1,3 +1,12 @@
+/**
+Abstract Factory Pattern
+
+A factory creates objects. We implement the factory design pattern in a C# program. 
+With this pattern, we develop an abstraction that isolates the logic for determining which type of class to create.
+The factory design pattern relies on a type hierarchy. The classes must all implement an interface or derive from a base class. 
+We use an abstract class as the base. The Manager, Clerk and Programmer classes derive from Position.
+*/
+
 //Simple Factory Pattern Example
 
 using System;
